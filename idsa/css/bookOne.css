@@ -1,0 +1,49 @@
+body{
+	background-color: rgba(102, 102, 102, 0.6);
+}
+.row{
+	margin-top:20px;
+}
+#errorFlipbook {
+	display: none;
+}
+/*Book css */
+.flipbook-viewport{
+	width: 80%;
+	max-width: 900px;
+	min-height: 300px;
+	max-height: 600px;
+	height: 80%;
+	margin: 0 auto 0 auto;
+}
+.flipbook .page{
+	background-size:100% 100%;
+}
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+	-webkit-box-shadow:0 0 40px #4d4d4d;
+	-moz-box-shadow:0 0 40px #4d4d4d;
+	-o-box-shadow:0 0 40px #4d4d4d;
+	-ms-box-shadow:0 0 40px #4d4d4d;
+	box-shadow:0 0 40px #4d4d4d;
+}
+audio {
+	background: linear-gradient(to bottom, #3d3d3d 0%, #000000 100%)
+}
+@media only screen and (max-width: 700px){
+	.flipbook-viewport{
+		display: none;
+	}
+	#errorFlipbook {
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	border: 2px solid #ff0000;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 5px;
+}
+}

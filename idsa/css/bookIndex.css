@@ -1,0 +1,391 @@
+/* For desktop: */
+/*IDSA Styling */
+body, html{
+	height: 100%;
+}
+.BooksTitle h2{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 80px;
+	color: #fff;
+	text-shadow: 4px 4px #4d3d00;
+}
+h3{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 60px;
+	color: #fff;
+	text-shadow: 4px 4px #4d3d00;
+}
+/*************	NEEDS SORTING FOR REG AND LOG IN FORMS**********************/
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+.formheader{
+	width: 30%;
+	margin: 50px auto 0px;
+	color: black;
+	background-color: #fff;
+	text-align: center;
+	border: 1px solid #b0c4de;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding:20px;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.userFormGroup{
+	margin: 10px 0px 10px 0px;
+}
+.userFormGroup input{
+	height: 30px;
+	width: 90%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #3d3d3d;
+}
+.error{
+	width: 92%;
+	margin: 0px auto;
+	padding: 10px;
+	border: 1px solid #a94442; 
+  	color: #a94442; 
+  	background: #f2dede; 
+  	border-radius: 5px; 
+  	text-align: left;
+}
+.success {
+  	color: #3c763d; 
+  	background: #dff0d8; 
+  	border: 1px solid #3c763d;
+  	margin-bottom: 20px;
+}
+/***********************************************************/
+/*Cover */
+#cover{
+	background: url('bookbackground.jpg') no-repeat center;
+	height: 100%;
+	/*Center image and scale to screen size*/
+	background-size: cover;
+	padding-top: 2rem;
+}
+#cover2{
+	background: url('bookbackground2.jpg') no-repeat center;
+	height: 100%;
+	/*Center image and scale to screen size*/
+	background-size: cover;
+}
+#cover3{
+	background: url('bookbackground3.jpg') no-repeat center;
+	height: 100%;
+	/*Center image and scale to screen size*/
+	background-size: cover;
+}
+/****************/
+.navUserDetails a{
+	margin-top:auto;
+	margin-bottom: auto;
+}
+.nav-link{
+	color: #6200EA;
+}
+.nav-link:hover{
+	color: #6200EA;
+	opacity: 1.5;
+}
+/*CreateBook*/
+.bookContainer{
+	height: 100%;
+	/*overflow: hidden;*/
+}
+#productimage1{
+	display: none;
+}
+/*.CameraCapture img{
+	width: 80%;
+	height: 50%;
+	background-image: url('');
+	background-position: center;
+	border: 0.5px solid #a6a6a6;
+	-webkit-box-shadow:0 0 10px rgba(0,0,0,0.6);
+	-moz-box-shadow:0 0 10px rgba(0,0,0,0.6);
+	-ms-box-shadow:0 0 10px rgba(0,0,0,0.6);
+	-o-box-shadow:0 0 10px rgba(0,0,0,0.6);
+	box-shadow:0 0 10px rgba(0,0,0,0.6);
+}*/
+.page{
+	width:100%;
+	height: calc(95vh - 220px);
+	background-color: #fff;
+	display: none;
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.8);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.8);
+	box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+.page[pageNumber="1"] {
+	display: block;
+}
+.chapterInput{
+	width: 80%;
+	max-height: 300px;
+	margin: 0 auto; 
+}
+.bookTitle{
+	font-size: 20px;
+}
+.chapterHolder{
+	width:80%;
+	padding: auto;
+	font-family: "arial", cursive, sans-serif;
+	font-size: 3vh;
+}
+.chapterInput{
+	width: 80%;
+	max-height: 300px;
+	min-height: 150px;
+	margin:5px auto; 
+}
+      .file-upload-content {
+  display: none;
+  text-align: center;
+}
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+.image-upload-wrap {
+  max-width: 80%;
+  max-height: 80%;
+  margin-top: 20px;
+  border: 4px dashed #ff0000;
+  position: relative;
+}
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #ff0000;
+  border: 4px dashed #ffffff;
+}
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+.drag-text {
+  text-align: center;
+}
+.drag-text p {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ff0000;
+  padding: 60px 0;
+}
+.drag-text p:hover{
+  color: #fff;
+}
+.file-upload-image {
+  max-height: 80%;
+  max-width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+/*.remove-image {
+  width: 100px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}*/
+/***********************/
+/* Skecth Pad Styling */
+#sketch-canvas {
+	border: 2px dotted #CCCCCC;
+	border-radius: 5px;
+	cursor: crosshair;
+}
+.controls {
+	min-height: 60px;
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.controls ul {
+	list-style:none;
+	margin: 0;
+	float: 	left;
+	padding: 10px 0 20px;
+	width: 100%;
+	text-align: center;
+}
+.controls ul li{
+	display:inline-block;
+	height: 54px;
+	width: 54px;
+	border: 1px solid black;
+	border-radius: 60px;
+	cursor: pointer;
+	box-shadow: 0 3px 0 0 #222;
+	margin: 0 5px 10px;
+}
+.sizecontrols ul li{
+	margin: 0 auto 0 auto;
+}
+		/* Colour Selections */
+.black {background-color: #000000; } 
+.brown {background-color: #663300; }  
+.white {background-color: #ffffff;  }
+.dblue { background-color: #000099; }
+.lblue { background-color: #4fa3fc; }
+.purple{ background-color: #6600ff; }
+.pink{ background-color: #ff66ff; }   
+.red { background-color: #ff0000; }
+.orange{ background-color: #ff6600; } 
+.yellow { background-color: #ffff00; } 
+.dgreen{ background-color:#006600; }
+.lgreen{ background-color:#00ff00; }
+
+.controls .selected{
+	border: 7px solid #cccccc;
+}
+.sizecontrols .selected{
+	border: 4px solid #000066;
+}
+.sketch-image{
+	width: 70%;
+	height:70%;
+	margin-top: 5px;
+}
+.audioRecord [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+/*Reading Book Section*/
+/*Section follows principles for the create book section with additional styling*/
+.readingBooks{
+  border:1px solid #000;
+  border-radius:  10px;
+  background-color: rgba(255,255,255, 0.5);
+  padding:5px;
+}
+.readingBooks .col-md-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+}
+.readingBooks h2 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 40px;
+  color: #3d3d3d;
+  
+}
+.readingBooks hr{
+  background-color:#3d3d3d;
+}
+
+/*Instruction Modal*/
+.instructionmodal .modal-dialog{
+  width: 80%;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+}
+/***********************/
+@media only screen and (max-width: 990px){
+    /* For tablets: */
+	/*Cover */
+	#cover{
+	background: url('bookbackground.jpg') no-repeat center;
+	height: 100%;
+	/*Center image and scale to screen size*/
+	background-size: cover;
+	padding-top: 2rem;
+	}
+	#cover2{
+		background: url('bookbackground2.jpg') no-repeat center;
+		height: 100%;
+		/*Center image and scale to screen size*/
+		background-size: cover;
+	}
+	/***********************/
+    /*IDSA Styling */
+    body, html{
+		height: 100%;
+	}
+	.BooksTitle h2{
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 60px;
+		color: #fff;
+		text-shadow: 4px 4px #4d3d00;
+	}
+	h3{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 4px 4px #4d3d00;
+}
+	nav{
+		background-color: rgba(166, 166, 166, 0.5);
+	}
+	.container{
+		padding: 5rem;
+	}
+	/****************/
+	.audioRecord [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+}

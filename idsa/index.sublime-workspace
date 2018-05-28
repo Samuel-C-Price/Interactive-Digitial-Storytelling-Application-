@@ -1,0 +1,851 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"mou",
+				"mouseDown"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"c",
+				"context"
+			],
+			[
+				"touc",
+				"touchX"
+			],
+			[
+				"tou",
+				"touchY"
+			],
+			[
+				"mous",
+				"mouseX"
+			],
+			[
+				"mouse",
+				"mouseDown"
+			],
+			[
+				"sketch",
+				"sketchpad_mouseUp"
+			],
+			[
+				"touch",
+				"touchY"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"input",
+				"inputchapter"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"cn",
+				"canvas"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"get",
+				"getContext"
+			],
+			[
+				"st",
+				"strokeStyle"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"my",
+				"my-auto"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"img",
+				"imgHolder"
+			],
+			[
+				"book",
+				"bookContainer"
+			],
+			[
+				"page",
+				"page_1"
+			],
+			[
+				"page_",
+				"page_3"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"pag",
+				"page_2"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"boxs",
+				"box-shadow"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"log",
+				"logout_user"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"mysl_real",
+				"mysql_real_escape_string"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"SE",
+				"_SESSION"
+			],
+			[
+				"connec",
+				"connection_error"
+			],
+			[
+				"s",
+				"sql"
+			],
+			[
+				"DA",
+				"database"
+			],
+			[
+				"con",
+				"connection_error"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"conta",
+				"container-fuild"
+			],
+			[
+				"en",
+				"enviroment"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"Book",
+				"BookOne"
+			],
+			[
+				"rot",
+				"rotateY()"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius"
+			],
+			[
+				"border-btom",
+				"border-bottom-left-radius"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"Dra",
+				"DrawSelection"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"Sam",
+				"SamGradImg"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"cl",
+				"cl-md-6"
+			],
+			[
+				"fli",
+				"flipbookJS"
+			],
+			[
+				"turn",
+				"turnjs4"
+			],
+			[
+				"boo",
+				"bookOne"
+			],
+			[
+				"Pro",
+				"ProjectImages"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"d",
+				"glyphicon-menu-down"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"B",
+				"BookInfo"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Pr",
+				"ProjectImages"
+			],
+			[
+				"P",
+				"ProjectImages"
+			],
+			[
+				"rep",
+				"repeat-y"
+			],
+			[
+				"bak",
+				"background-repeat"
+			],
+			[
+				"re",
+				"repeat-y"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/carousel/index.html",
+			"settings":
+			{
+				"buffer_size": 11644,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/carousel/carousel.css",
+			"settings":
+			{
+				"buffer_size": 1806,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/sampr/Desktop/SCP website/sketch.html",
+			"settings":
+			{
+				"buffer_size": 8645,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/sampr/Desktop/SCP website/sketch.js",
+			"settings":
+			{
+				"buffer_size": 4482,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/sampr/Desktop/SCP website/style.css",
+			"settings":
+			{
+				"buffer_size": 1456,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 131.0,
+		"last_filter": "men",
+		"selected_items":
+		[
+			[
+				"men",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/sampr/Desktop/SCP website/app.js",
+		"/C/Users/sampr/Desktop/SCP website/index.html",
+		"/C/Users/sampr/Desktop/Website Components/canvas/canvas.html",
+		"/C/Users/sampr/Desktop/Website Components/canvas/canvas.js",
+		"/C/Users/sampr/Desktop/Website Components/canvas/canvas.css",
+		"/C/xampp/htdocs/idsa/JS/sketchPad.js",
+		"/C/xampp/htdocs/idsa/css/bookIndex.css",
+		"/C/xampp/htdocs/idsa/index.php",
+		"/C/Users/sampr/Desktop/Website Components/Create-A-Simple-Drawing-App-Using-jQuery-Html5-Canvas-Simple-Draw/index.html",
+		"/C/Users/sampr/Desktop/Website Components/Create-A-Simple-Drawing-App-Using-jQuery-Html5-Canvas-Simple-Draw/js/app.js",
+		"/C/Users/sampr/Desktop/Website Components/Create-A-Simple-Drawing-App-Using-jQuery-Html5-Canvas-Simple-Draw/css/style.css",
+		"/C/Users/sampr/Desktop/SCP website/bookIndex.html",
+		"/C/xampp/htdocs/idsa/server.php",
+		"/C/Users/sampr/Desktop/Website Components/sketchPad/sktechPad.html",
+		"/C/xampp/htdocs/idsa/login.php",
+		"/C/Users/sampr/Desktop/Website Components/sketchPad/sketchPadJS.js",
+		"/C/Users/sampr/Desktop/Website Components/sketchPad/sketchPadCSS.css",
+		"/C/Users/sampr/Desktop/Website Components/html5-canvas-drawing-app/html5-canvas-drawing-app.js",
+		"/C/Users/sampr/Desktop/Website Components/html5-canvas-drawing-app/html5-canvas-drawing-app.html",
+		"/C/Users/sampr/Desktop/Website Components/sketch.js-master/lib/sketch.js",
+		"/C/Users/sampr/Desktop/Website Components/sketch.js-master/index.html",
+		"/C/Users/sampr/Desktop/Website Components/yiom-sketchpad-5aeb9f7/scripts/sketchpad.js",
+		"/C/Users/sampr/Desktop/Website Components/html5-canvas-drawing-app-master/index_jQueryMobile.html",
+		"/C/xampp/htdocs/idsa/register.php",
+		"/C/xampp/htdocs/idsa/bookindex.php",
+		"/C/xampp/htdocs/idsa/errors.php",
+		"/C/xampp/htdocs/idsa/index.sublime-workspace",
+		"/C/Users/sampr/Desktop/SCP website/css/bookIndex.css",
+		"/C/xampp/htdocs/idsa/bookIndex.css",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/navbars/index.html",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/navbars/navbar.css",
+		"/C/Users/sampr/Desktop/SCP website/bookIndex.css",
+		"/C/Users/sampr/Desktop/SCP website/bookOne.html",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/navbar-fixed/navbar-top-fixed.css",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/navbar-fixed/index.html",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/carousel/index.html",
+		"/C/xampp/phpMyAdmin/logout.php",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/cover/cover.css",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/cover/index.html",
+		"/C/Users/sampr/Desktop/SCP website/ProjectImages/BookOne.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/bookOne.html",
+		"/C/Users/sampr/Desktop/SCP website/BookOne.html",
+		"/C/Users/sampr/Desktop/SCP website/scss/_root.scss",
+		"/C/Users/sampr/Desktop/SCP website/scss/_variables.scss",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/scss/_buttons.scss",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/scss/_variables.scss",
+		"/C/Users/sampr/Desktop/MDB Free/scss/core/_variables.scss",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/scss/_carousel.scss",
+		"/C/Users/sampr/Desktop/MDB Free/scss/free/_carousels.scss",
+		"/C/Users/sampr/Desktop/MDB Free/scss/_custom.scss",
+		"/C/Users/sampr/Desktop/MDB Free/scss/mdb.scss",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/carousel/carousel.css",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/album/index.html",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/album/album.css",
+		"/C/Users/sampr/Desktop/SCP website/JS/cameraCapture.js",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/css/custom2.css",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/starter-template/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/index.html",
+		"/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/product/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/css/bookOne.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/double-page/css/double-page.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/basic/css/basic.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/basic/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/docs/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/JS/lib/scissor.min.js",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/magazine/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/magazine/slider.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/steve-jobs/pages/page5.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/steve-jobs/pages/page40.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/index2.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/CSS/custom.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/extras/jquery.min.1.7.js",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/docs/css/docs.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/docs/css/jquery.ui.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/docs/css/jquery.ui.html4.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/docs/js/docs.js",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/lib/turn.html4.min.js",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/samples/basic/js/basic.js",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Interlearn.co.uk/turnjs4/lib/turn.js",
+		"/C/Users/sampr/Documents/bootstrap-4.0.0-alpha.6/docs/examples/carousel/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/Minimal-3D-Image-Rotator-with-jQuery-CSS3-Cascade-Slider/demo/index.html",
+		"/C/Users/sampr/Documents/bootstrap-4.0.0-alpha.6/docs/examples/carousel/carousel.css",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/CSS/custom2.css",
+		"/C/Users/sampr/Documents/bootstrap-4.0.0-alpha.6/docs/examples/album/album.css",
+		"/C/Users/sampr/Documents/bootstrap-4.0.0-alpha.6/docs/examples/album/index.html",
+		"/C/Users/sampr/Documents/bootstrap-4.0.0-alpha.6/docs/examples/offcanvas/offcanvas.css",
+		"/C/Users/sampr/Documents/bootstrap-4.0.0-alpha.6/docs/examples/offcanvas/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/index.html",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/CSS/custom",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/CSS/bootstrap.css.map",
+		"/C/Users/sampr/Desktop/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/CSS/bootstrap.min.css",
+		"/C/Users/sampr/Documents/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/index.html",
+		"/C/Users/sampr/Documents/Year3ComputerScience/CMP3060M-Project/ProjectWebSite/CSS/index",
+		"/C/Users/sampr/Documents/Year3ComputerScience/ProjectWebSite/notes.html",
+		"/C/Users/sampr/Documents/HND Year 2/Group Project/StudentLogin/login",
+		"/C/Users/sampr/Documents/HND Year 2/Programming Paradigms/PRICES-308401-CMP2092M-ProgrammingParadigms/PRICES-308401-CMP2092M-HaskellCode"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"green",
+			"d"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/carousel/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7324,
+								7324
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/sampr/Desktop/bootstrap-4.0.0/docs/4.0/examples/carousel/carousel.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1081,
+								1081
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/sampr/Desktop/SCP website/sketch.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5193,
+								5193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/sampr/Desktop/SCP website/sketch.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								4482
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/sampr/Desktop/SCP website/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1349,
+								1349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 55.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

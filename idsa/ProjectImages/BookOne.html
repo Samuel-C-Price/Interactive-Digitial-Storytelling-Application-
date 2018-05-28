@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book One.</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <script type="text/javascript" src="JS/modernizr.2.5.3.min.js"></script>
+    <script  type="text/javascript" src="JS/jquery.min.1.7.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="BookOne.css" rel="stylesheet">
+
+
+  
+  </head>
+  <body>
+<!--     Section to create create book, set divs inside of col in different rows to make a stroyboard layout. google arrows, 
+    on hover create shadow in css. curved arrows directing to the next page, on click transition to the next div, slide function.  -->
+
+    
+
+    <!-- <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+    </div> -->
+<div class="row">
+  <div class="col-md-8">
+    <div class="flipbook-viewport">
+      <div class="container">
+        <div class="flipbook">
+          <div class="hard"  id="homePage"  style="background-image: url(ProjectImages/Books.jpg)">
+            <h1 class="frontPage">Welcome to Interlearn's Interactive E-books for children.</h1>
+          </div>
+          <div class="page" id="page-1" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>1</h1>
+          </div>
+          <div class="page" id="page-2" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>2</h1>
+          </div>
+          <div class="page" id="page-3" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>3</h1>
+          </div>
+          <div class="page" id="page-4" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>4</h1>
+          </div>
+          <div class="page" id="page-5" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>5</h1>
+          </div>
+          <div class="page" id="page-6" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>6</h1>
+          </div>
+          <div class="page" id="endPage" >
+            <h1>end</h1>
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 justify-content-center">
+    <a class="btn btn-primary" class="CloseBut" href="index.html">Close</a><br><br>
+     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#DrawModal">&#x270f;</button> 
+         <!-- Modal -->
+      <div class="modal fade" id="DrawModal" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Draw Something.</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Please draw something below.</p>
+              <canvas id="DrawCanvas"></canvas>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default">Save</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <br><br>
+    <div id="ImageCapture">
+      <input type="file" id="productimage1" accept="image/*" capture="enviroment" class="btn-sm btn-primary" value="Camera"><br>
+      <img id="image1" width="300px" height="400px" alt="Place a Photo here" src="imgHolder.jpg">
+      <!--<img id="image1" width="300px" height="300px" src="https://placehold.it/300x300" />-->
+    </div>
+   
+     
+  </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   
+    <!--Camera Capture JS to place image in div-->
+    <script type="text/javascript" src="JS/cameraCapture.js"></script>
+
+    <script type="text/javascript">
+
+      function loadApp(){
+        // creates a variable for the flipbook to be manipulated. 
+        var flipbook = $('.flipbook');
+
+        // Checks if the page has been loaded. 
+        if(flipbook.width()==0 || flipbook.height()==0){
+          setTimeout(loadApp, 10);
+          return;
+        }
+        
+        // create the flipbook 
+        $('.flipbook').turn({
+            // Acceleration fro touch devices
+            Acceleration: true,
+            // Elevation
+
+            elevation: 50,
+      
+            // Enable gradients
+
+            gradients: true,
+      
+            // Auto center this flipbook
+
+             autoCenter: true
+
+        });
+      }
+      // script for older versions of IE. 
+      yepnope({
+      test : Modernizr.csstransforms,
+      yep: ['JS/turn.min.js'],
+      nope: ['JS/turn.html4.min.js'],
+      both: ['JS/scissor.min.js', 'BookOne.css'],
+        complete: loadApp
+      }); 
+
+    </script>
+  </body>
+</html>

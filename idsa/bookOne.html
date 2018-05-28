@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Book One.</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="icon" href="ProjectImages/isdaLogo.png">
+    <script  type="text/javascript" src="JS/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="JS/modernizr.2.5.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/bookOne.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row" id="topBar">
+      <div class="col ml-5">
+        <a class="btn btn-primary" class="CloseBut" href="indexbook.php#cover3">Close</a>
+        <audio controls controlsList="nodownload">
+          <source src="Recording.m4a" type="audio/ogg">
+         <!--  <source src="Recording.m4a" type="audio/mpeg"> -->
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+    </div>
+    <div id="errorFlipbook">
+      <p>Sorry your device's screen size is too small to display the book. Please use an alternative device.</p>
+    </div>
+    <div class=" flipbook-viewport">
+        <div class="flipbook">
+          <div class="hard"  id="homePage"  style="background-image: url(ProjectImages/Books.jpg);">
+            <h1 class="frontPage">Welcome to Interlearn's Interactive E-books for children.</h1>
+          </div>
+          <div class="page" id="page-1" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>1</h1>
+          </div>
+          <div class="page" id="page-2" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>2</h1>
+          </div>
+          <div class="page" id="page-3" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>3</h1>
+          </div>
+          <div class="page" id="page-4" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>4</h1>
+          </div>
+          <div class="page" id="page-5" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>5</h1>
+          </div>
+          <div class="page" id="page-6" style="background-image: url(ProjectImages/bookPage.jpg)">
+            <h1>6</h1>
+          </div>
+          <div class="page" id="endPage" style="background-image: url(ProjectImages/bookPage.jpg)" >
+            <h1>end</h1>
+          </div>
+       </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript">
+
+      function loadApp(){
+        // creates a variable for the flipbook to be manipulated. 
+        var flipbook = $('.flipbook');
+        // Checks if the page has been loaded. 
+        if(flipbook.width()==0 || flipbook.height()==0){
+          setTimeout(loadApp, 10);
+          return;
+        }
+        // create the flipbook 
+        $('.flipbook').turn({
+            // Acceleration fro touch devices
+            Acceleration: true,
+            // Elevation
+            elevation: 50,
+            // Enable gradients
+            gradients: true,
+            // Auto center this flipbook
+            autoCenter: true
+        });
+      }
+      // script for older versions of IE. 
+      yepnope({
+      test : Modernizr.csstransforms,
+      yep: ['JS/turn.min.js'],
+      nope: ['JS/turn.html4.min.js'],
+      both: ['JS/scissor.min.js', 'css/bookOne.css'],
+        complete: loadApp
+      }); 
+
+      
+    </script>
+  </body>
+</html>
